@@ -1,5 +1,47 @@
-html,
-body{
+html {
   font-size: 18px;
-  background-color: ;
+  color: white;
+  background-color: black;
+  font-family: helvetica, sans-serif;
+}
+
+body{
+  width: 960px;
+  margin: auto;
+}
+
+header{
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+  padding-top: 0.66rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.66rem;
+}
+
+.main{
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  display: flex;
+}
+
+.newarrival{
+  width: 24rem;
+  margin: 9rem;
+}
+
+.textcontainer{
+  padding:  2rem 0rem 2rem 3rem;
+  background-color: black;
+  font-weight: bold;
+
+}
+
+.textcontainer h1{
+  font-size: 2rem;
+
 }
