@@ -1,18 +1,20 @@
 html {
   font-size: 18px;
   color: white;
-  background-color: black;
   font-family: helvetica, sans-serif;
+  background-color: black;
 }
 
 body{
-  width: 960px;
+  width: 60rem;
   margin: auto;
 }
 
 header{
   display: flex;
   align-items: center;
+  width: 53.3rem;
+  margin: auto;
 }
 
 header img {
@@ -27,15 +29,17 @@ header img {
   height: 25rem;
   background-image: url("../images/moto.jpeg");
   display: flex;
+  background-repeat: no-repeat;
 }
 
 .newarrival{
-  width: 24rem;
-  margin: 9rem;
+  width: 53.3rem;
+  margin: auto;
 }
 
 .textcontainer{
-  padding:  2rem 0rem 2rem 3rem;
+  width: 20rem;
+  padding:  2rem 3rem;
   background-color: black;
   font-weight: bold;
 }
@@ -44,10 +48,15 @@ header img {
   font-size: 2rem;
 }
 
+.navigation{
+    background-color: firebrick;
+}
+
 nav {
+  width: 53.3rem;
+  margin: auto;
   display: flex;
-  justify-content: space-around;
-  background-color: firebrick;
+  justify-content: space-between;
 }
 
 nav a {
@@ -56,37 +65,51 @@ nav a {
   text-decoration: none;
 }
 
-.productsection{
+.container{
   color: black;
   background-color: white;
 }
 
 .productline{
+  width: 53.3rem;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   padding-top: 3rem;
   padding-bottom: 3rem;
   justify-content: space-between;
-
 }
 
 .product{
   display: flex;
   flex-direction: column;
   width: 30%;
+  height: 15rem;
   text-align: center;
   border: 4px solid black;
 }
 
 .image {
-  height: 9rem;
+  height: 13rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .image img{
-  height: 60%;
+  height: 9rem;
+}
+
+.image .glasses{
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image .glasses img{
+  height: 5rem;
 }
 
 .text{
@@ -96,6 +119,8 @@ nav a {
 }
 
 .info{
+  width: 53.3rem;
+  margin: auto;
   background: white;
   display: flex;
   justify-content: space-between;
@@ -110,18 +135,17 @@ nav a {
   padding-left: 2rem;
 }
 
-.location{
+.infotitle{
   width: 35%;
 }
 
-.hours{
-  width: 35%;
-}
 
 .info span{
   color: black;
 }
 
-footer{
+footer {
   padding: 2.5rem 0rem;
+  width: 53.3rem;
+  margin: auto;
 }
