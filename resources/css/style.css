@@ -1,21 +1,23 @@
 html {
   font-size: 18px;
-  color: white;
-  font-family: helvetica, sans-serif;
+color: white;
+font-family: helvetica, sans-serif;
 }
 
 body{
+
 }
 
 header{
-  display: flex;
-  align-items: center;
+  display: block;
+  align-content: center;
   background-color: black;
 }
 
 .container{
-  width: 53.3rem;
+  max-width: 53.3rem;
   margin: auto;
+
 }
 
 header img {
@@ -29,17 +31,18 @@ header img {
 .main{
   height: 25rem;
   background-image: url("../images/moto.jpeg");
-  display: flex;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .newarrivaltext{
+  top: 9rem;
   width: 20rem;
-  padding:  2rem 3rem;
+  padding: 2rem 3rem;
   background-color: black;
   font-weight: bold;
+  position: relative;
 }
 
 .newarrivaltext h1{
@@ -49,12 +52,14 @@ header img {
 .navigation{
     background-color: firebrick;
     width: 100%;
+    text-align: center;
 }
 
 
 .displaynav nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .displaynav nav a {
@@ -64,12 +69,14 @@ header img {
 }
 
 .mobilenav nav {
-  display: flex;
+  display: inline-block;
   justify-content: center;
+  padding: 0.75rem 0rem;
+
 }
 
 .mobilenav nav a {
-  padding: 0.75rem 0rem;
+
   color: white;
   text-decoration: none;
 }
@@ -81,6 +88,7 @@ header img {
   padding-top: 3rem;
   padding-bottom: 3rem;
   justify-content: space-between;
+  flex-grow:
 }
 
 .product{
@@ -198,19 +206,12 @@ footer {
 
   .main{
     height: 15rem;
-    background-image: url("../images/moto.jpeg");
-    display: flex;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    flex-direction: column;
   }
 
   .newarrivaltext{
     width: 100%;
     padding: 1rem 2rem;
-    background-color: black;
-    font-weight: bold;
+    top: 10rem;
   }
 
   .newarrivaltext h1{
@@ -229,6 +230,10 @@ footer {
     width: 90%;
   }
 
+  .productline{
+    justify-content: center;
+  }
+
   footer .container{
     text-align: center;
   }
@@ -239,13 +244,15 @@ footer {
   }
 
   .info{
-      display: inline;
-      padding: 4rem;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 4rem;
+      align-items: center;
     }
 
     .infotitle{
       width: 90%;
-      padding: 0.5rem;
+      margin: 0.5rem;
     }
 
 
