@@ -1,7 +1,7 @@
 html {
   font-size: 18px;
-color: white;
-font-family: helvetica, sans-serif;
+  color: white;
+  font-family: helvetica, sans-serif;
 }
 
 body{
@@ -189,7 +189,7 @@ footer {
   }
 
   .container{
-    width: 56.89rem;
+    max-width: 56.89rem;
     margin: auto;
   }
 
@@ -239,7 +239,7 @@ footer {
   }
 
   .container{
-    width: 26.1rem;
+    max-width: 26.1rem;
     margin: auto;
   }
 
